@@ -21,7 +21,7 @@
 </pre>
 
 2. Để thực hiện `POST`, cần điều chỉnh ở cả hai phía client và server như sau:
-- Client: __`method="POST"`__ trong thẻ form
+- **Client**: __`method="POST"`__ trong thẻ form
 
 <pre>
 &lt;form <b>method="POST"</b>&gt;
@@ -29,7 +29,7 @@
 </pre>
 
 
-- Server: Chấp nhận cả GET và POST trong router
+- **Server**: Chấp nhận cả GET và POST trong router
 
 <pre>
 @app.route('/...', <b>methods=["GET", "POST"]</b>)
