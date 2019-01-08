@@ -3,7 +3,22 @@
 
 1.  HTML Form
 - Bọc thẻ `<form \>` vào các input cần được gửi nội dung đi
+
+<pre>
+<b>&lt;form method="POST"&gt;</b>
+  &lt;input &gt;
+  &lt;input &gt;
+  ...
+<b>&lt;/form&gt;</b>
+</pre>
+
 - Trong các thẻ `<input name="" \>`, cần có attribute __`"name"`__ để đánh nhãn cho nội dung của các thẻ này
+
+<pre>
+...
+&lt;input <b>name="image"</b> &gt;
+...
+</pre>
 
 2. Để thực hiện `POST`, cần điều chỉnh ở cả hai phía client và server như sau:
 - Client: __`method="POST"`__ trong thẻ form
