@@ -47,6 +47,6 @@
 <pre>
 @app.route('/...', methods=["GET", "POST"])
 ...
-form = rquest.form
+form = request.form
 image = form<b>["image"]</b>
 </pre>
